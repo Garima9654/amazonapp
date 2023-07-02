@@ -3,7 +3,7 @@ import { apiUrl } from "./config";
 import { getUserInfo } from "./localStorage";
 
 export const getProducts = async ({ searchKeyword = "" }) => {
-  try {
+   try {
     let queryString = "?";
     if (searchKeyword) queryString += `searchKeyword=${searchKeyword}&`;
 

@@ -15,6 +15,7 @@ import DashboardScreen from './srceens/DashboardScreen';
 import ProductListScreen from './srceens/ProductListScreen';
 import ProductEditScreen from './srceens/ProductEditScreen';
 import OrderListScreen from './srceens/OrderListScreen';
+import ShippingScreen from './srceens/ShippingScreen';
 import Aside from './components/Aside';
 
 const routes = {

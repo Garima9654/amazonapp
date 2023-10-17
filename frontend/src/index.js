@@ -4,7 +4,7 @@ import { parseRequestUrl, showLoading, hideLoading } from './utils';
 import Error404Screen from './srceens/Error404Screen';
 import CartScreen from './srceens/CartScreen';
 import SigninScreen from './srceens/SigninScreen';
-import Header from './components/Header';
+import Header from './components/Header'; 
 import RegisterScreen from './srceens/RegisterScreen';
 import ProfileScreen from './srceens/ProfileScreen';
 import ShippingScreen from './srceens/ShippingScreen';

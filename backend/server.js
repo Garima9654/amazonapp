@@ -22,6 +22,11 @@ mongoose
     console.log(error.reason);
   });
 const app = express();
+
+/**
+ * Global middleware
+ */
+
 app.use(cors());
 app.use(bodyParser.json());
 app.use('/api/uploads', uploadRouter);

@@ -9,7 +9,7 @@ import orderRouter from './routers/orderRouter';
 import productRouter from './routers/productRouter';
 import uploadRouter from './routers/uploadRouter';
 
-
+mongoose
   .connect(config.MONGODB_URL, {
     useNewUrlParser: true,
     useUnifiedTopology: true,

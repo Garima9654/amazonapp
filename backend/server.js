@@ -29,6 +29,10 @@ const app = express();
 
 app.use(cors());
 app.use(bodyParser.json());
+
+/**
+ * API routes
+ */
 app.use('/api/uploads', uploadRouter);
 app.use('/api/users', userRouter);
 app.use('/api/products', productRouter);
